@@ -1,0 +1,127 @@
+*{
+    box-sizing: border-box;
+}
+
+.container{
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 0 10px;
+}
+
+
+body{
+    color: #fff;
+}
+
+.header{
+    background-image: url('../images/space-bg.jpg');
+    min-height: 100vh;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.header__inner{
+display: flex;
+flex-direction: column;
+justify-content: space-between;
+min-height: 100vh;
+}
+
+.header__top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 75px 0 30px;
+}
+
+.menu__list{
+    list-style: none;
+    display: flex;
+}
+
+.menu__item{
+    margin-right: 30px;
+}
+
+.menu__link{
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 18px;
+    line-height: 21px;
+    transition: all 0.5s;
+    color: #fff;
+}
+
+.menu__link:hover{
+    color: red;
+}
+
+.logo_img{
+    background: transparent;
+}
+
+.phone{
+    font-size: 24px;
+    line-height: 28px;
+    margin-left: auto;
+    text-decoration: none;
+    color: #fff;
+}
+
+.header__content{
+    max-width: 600px;
+}
+
+.header__title{
+    font-size: 60px;
+    margin-bottom: 20px;
+    font-family: 'spaceagecyrillic', sans-serif;
+
+}
+
+.header__title span{
+    font-size: 110px;
+
+}
+
+.header__text{
+    font-size: 24px;
+    line-height: 29px;
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    margin-bottom: 50px;
+}
+
+.header__btn{
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 24px;
+    font-weight: 400;
+    line-height: 29px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    width: 100%;
+    padding: 15px 10px;
+    text-align: center;
+}
+
+.header__description-text{
+    width: 165px;
+    color: #fff;
+    font-size: 14px;
+    line-height: 16px;
+}
+
+.header__description{
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 5%;
+}
+
+.header__description-text + .header__description-text{
+    margin-left: 50px;
+}
+
