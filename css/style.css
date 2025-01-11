@@ -145,6 +145,10 @@ min-height: 100vh;
     padding-bottom: 150px;
 }
 
+.about__item-origin{
+    flex-direction: row-reverse;
+}
+
 .about__img{
     max-width: 100%;
 }
@@ -179,4 +183,50 @@ min-height: 100vh;
     width: 165px;
 }
 
+.about__table{
+    margin-bottom: 50px;
+}
 
+.about__table-caption{
+    caption-side: bottom;
+    text-align: left;
+    margin-top: 20px;
+    font-size: 12px;
+    line-height: 14px;
+}
+
+.about__table-tr{
+    border: 1px solid #ffffff;
+    border-left: none;
+    border-right: none;
+}
+
+.about__table-tr + .about__table-tr{
+    font-size: 36px;
+    line-height: 43px;
+    text-align: center;
+    font-weight: bold;
+}
+
+.about__table-td{
+    padding: 10px 30px 10px 0;
+}
+
+.about__table-td span{
+    font-size: 14px;
+    line-height: 17px;
+    display: block;
+}
+
+.button {
+    font-family: 'SF Pro Display', sans-serif;
+    font-size: 18px;
+    font-weight: 400;
+    line-height: 23px;
+    text-transform: uppercase;
+    border: 1px solid #fff;
+    background: transparent;
+    color: #fff;
+    padding: 20px 45px;
+    text-align: center;
+}
