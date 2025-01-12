@@ -230,3 +230,13 @@ min-height: 100vh;
     padding: 20px 45px;
     text-align: center;
 }
+
+.how-to{
+    background-image:url('../images/фон\ 3.jpg') ;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.how-to__box-list{
+    display: none;
+}
