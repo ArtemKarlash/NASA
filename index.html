@@ -4,16 +4,19 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/reset.css">
+    <link rel="stylesheet" href="css/slick.css">
     <link rel="stylesheet" href="css/style.css">
     <title>Document</title>
 </head>
 <body>
-    <div class="header">
+    <header class="header">
         <div class="container">
             <div class="header__inner">
                 <div class="header__top">
                     <nav class="menu">
-                        
+                        <button class="menu-btn">
+                            <span></span>
+                        </button>
                         <ul class="menu__list">
                             <li class="menu__item">
                                    <a class="menu__link" href="#">О НАС</a>
@@ -62,11 +65,11 @@
                     </div>
                 </div>
             </div>
-        </div> 
+    </header> 
        
-        <main class="main">
-            <section class="about">
-                <div class="container">
+        <!-- <main class="main">
+            <section class="about"> -->
+                <!-- <div class="container">
                     <h2 class="title"> 
                         О нас</h2>
                         <div class="about__item">
@@ -121,10 +124,12 @@
                                 <button class="button">
                                     ЗАБРОНИРОВАТЬ ПОЛЕТ
                                 </button>
+                                    </div>
+                                </div>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="about__item about__item-origin">
+                        <!-- <div class="about__item about__item-origin">
                             <img class="about__img"  src="images/Blue_Origin.jpg" alt="">
                             <div class="about__content">
                                 <h3 class="about__content-title">
@@ -178,9 +183,9 @@
                                     ЗАБРОНИРОВАТЬ ПОЛЕТ
                                 </button>
                             </div>
-                        </div>
+                        </div> -->
 
-                        <div class="about__item">
+                        <!-- <div class="about__item">
                             <img class="about__img"  src="images/SpaceX.jpg" alt="">
                             <div class="about__content">
                                 <h3 class="about__content-title">
@@ -237,9 +242,9 @@
                             </div>
                         </div>
                 </div>
-            </section>
+            </section> -->
 
-            <section class="how-to">
+            <!-- <section class="how-to">
                 <div class="container">
                     <h2 class="title">
                         Як все <br> відбувається 
@@ -272,15 +277,20 @@
                             </g>
                             <g>
                                 <circle cx="545" cy="434" r="10" fill="white"/>
-                                <text x="565" y="445" fill="white">Їмо з тюбиків: 5 видів меню на вибір (веган, спорт, безлактозне, безглютенове, звичайне)...</text>
+                                <foreignObject x="570" y="420" width="274" height="92">
+                                    Їмо з тюбиків: 5 видів меню на вибір (веган, спорт, безлактозне, безглютенове, звичайне)...
+                                </foreignObject>
                             </g>
                             <g>
                                 <circle cx="406" cy="534" r="10" fill="white"/>
-                                <text x="420" y="540" fill="white">Приземляємось, але це не точно</text>
+                                <foreignObject x="420" y="540" width="134" height="42">
+                                    Приземляємось, але це не точно
+                                </foreignObject>
                             </g>
                             <g>
                                 <circle cx="236" cy="414" r="10" fill="white"/>
-                                <text x="100" y="420" fill="white">Робимо фото в інстаграм</text>
+                                <foreignObject x="100" y="420" width="105" height="66" >Робимо фото в інстаграм
+                                </foreignObject>
                             </g>
                             </svg>
                             <ul class="how-to__box-list">
@@ -302,8 +312,234 @@
 
                     
                 </div>
-            </section>
-        </main>
+            </section> -->
 
+            <!-- <section class="to-book">
+                <div class="container">
+                    <div class="to-book__inner">
+                        <h2 class="title">
+                            Успей забронировать!
+                        </h2>
+                        <p class="to-book__text">
+                            Руководство Virgin Galactic надеется, что массовые суборбитальные космические полеты начнутся до 2022 года. Компания уже несколько лет продает билеты на такие полеты по 250 тыс долл.
+                        </p>
+                        <p class="to-book__text">
+                            Virgin Galactic получила задатков более чем 80 млн долл, а количество желающих превышает 600 человек.
+
+                        </p>
+                    </div>
+
+                </div>
+
+            </section> -->
+
+            <!-- <section  class="info">
+                <div class="special-offer">
+                    <div class="container">
+                        <h2 class="title">
+                            Спец<br> 
+                            пропозиції  
+                        </h2>
+                        <div class="special-offer__inner">
+                            <div class="special-offer__item">
+                                <div class="special-offer__item-box">
+                                    <p class="special-offer__item-text">
+                                        Забронюй політ 
+                                        <span>прямо зараз</span> 
+                                        та отримай знижку 
+                                        1000 $
+                                    </p>
+                                    <div class="special-offer__price">
+                                        <p class="special-offer__old-price">
+                                            250 000 $
+                                        </p>
+                                        <p class="special-offer__new-price">
+                                            249 000 $
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button">
+                                    ЗАБРОНЮВАТИ ПОЛІТ
+                                </button>
+                            </div>
+                            <div class="special-offer__item">
+                                <div class="special-offer__item-box">
+                                    <p class="special-offer__item-text">
+                                        Забронюй політ 
+                                        Приведи друга та отримай <span>знижку 10%</span> 
+                                        на наступний політ, якщо повернешся 
+                                    </p>
+                                    <div class="special-offer__price">
+                                        <p class="special-offer__old-price">
+                                            250 000 $
+                                        </p>
+                                        <p class="special-offer__new-price">
+                                            225 000 $
+                                        </p>
+                                    </div>
+                                </div>
+
+                                <button class="button">
+                                    ЗАБРОНЮВАТИ ПОЛІТ
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="services">
+                    <div class="container">
+                        <h2 class="title">
+                            Додаткові послуги
+                        </h2>
+                    <div class="services__inner">
+                    <div class="services__box-list">
+                        <p class="services__list-title">
+                            З Вами полетить професійний фотограф
+                        </p>
+                        <ul class="services__list">
+                            <li class="services__list-item">
+                                20 фотографій у професійній обробці</li>
+                            <li class="services__list-item">
+                                фото книга
+                            </li>
+                            <li class="services__list-item">
+                                магніт на холодильник у подарунок
+                            </li>
+                        </ul>
+                        <p class="services__description">
+                            Вартість фотосесії в невагомості 100 000 $.  Доплати 50 000 $ і отримай усі фото в корекції кольору на диску.
+                        </p>
+                        </div>
+                        <div class="services__buttons">
+                            <button class="button services__btn services__btn--first">КУПИТИ ПОСЛУГИ ФОТОГРАФA
+                            </button>
+                            <button class="button services__btn">ХОЧУ І ДИСК</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="slider">
+                    <div class="container">
+                        <div class="slider__inner">
+                            <div class="slider__box">
+                                <div class="slider__box-item">
+                                    <img  class="slider__box-img" src="images/Team.jpg" alt="">
+                                </div>
+                                <div class="slider__box-item">
+                                    <img  class="slider__box-img" src="images/kadenyuk.jpg" alt="">
+                                </div>
+                                <div class="slider__box-item">
+                                    <img  class="slider__box-img" src="images/13-cikavih-faktiv-pro-kosmonavtiv.jpg" alt="">
+                                </div>
+                            </div>
+                        </div>
+                        <p class="slider__description">
+                            Ти знаєш про Космічний закон – уяви собі те, що ти хочеш, і він увійде у твоє життя.
+                        </p> 
+                    </div>
+                   
+                </div>
+                
+
+            </section> -->
+
+
+            <!-- <section class="contacts">
+                <div class="container">
+                    <div class="contacts__inner">
+                        <div class="contacts__box">
+                            <h2 class="title">Контакти</h2>
+                            <p class="contacts__box-text">
+                                Залиш свої контакти і ми передзвонимо тобі у найближчий 1 рік!
+                            </p>
+                            <form  class="contacts__form" action="">
+                                <input type="text" class="contacts__form-input" placeholder="ПІБ">
+                                <input type="text" class="contacts__form-input" placeholder="Ім'я дитини чи онука (про всяк випадок)">
+                                <input type="text" class="contacts__form-input" placeholder="Телефон">
+                                <button class="button contacts__btn">ЗАБРОНИРОВАТЬ ПОЛЕТ</button>
+                            </form>
+                        </div>
+                        <div class="contacts__garant">
+                            <h2 class="title">
+                                Гарантії
+                            </h2>
+                            <p class="contacts__garant-text">
+                                Жодна моя ракета ще не зробила вдалу спробу, бо в ній тебе не було!
+                                Будь першим! Колонізуй Марс!
+                                Ілон Маск
+                            </p>
+                            <img class="contacts__garant-img" src="images/Илон.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </section> -->
+
+            <!-- <section class="footer">
+                <div class="container">
+                    <div class="footer__inner">
+                        <div class="footer__text">
+                            <p>
+                                Служба поддержки работает межгалактично и суборбитально
+                            </p>
+                            <p>
+                                График приема посетителей строго по записи
+                            </p>
+                        </div>
+                        <ul class="footer__menu">
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#">
+                                        О НАС 
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#">
+                                        СТОИМОСТЬ
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#">
+                                        ДОП. УСЛУГИ   
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#">
+                                        ГАРАНТИИ    
+                                    </a>
+                                </li>
+                                <li class="footer__menu-item">
+                                    <a class="footer__menu-link" href="#">
+                                        НОВОСТИ  
+                                    </a>
+                                </li>
+                        </ul>
+                        <ul class="footer__link">
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#">spacex.com</a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#">blueorigin.com</a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#">virgingalactic.com</a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#">0 800 000 000 00</a>
+                                </li>
+                                <li class="footer__links-item">
+                                    <a class="footer__links-link" href="#">МКС</a>
+                                </li>
+                        </ul>
+                    </div>
+                </div>
+            </section> -->
+
+
+        </main>
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <script src="js/slick.min.js"></script>
+        <script src="js/main.js"></script>
 </body>
 </html>
